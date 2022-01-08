@@ -1,3 +1,8 @@
+//todo-
+// save done or not done in local storage too 
+// u can use objects ig
+
+
 //selectors
 const todoInput = document.querySelector('.todo-input')
 const todoButton = document.querySelector('.todo-button')
