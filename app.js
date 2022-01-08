@@ -46,6 +46,7 @@ function deleteCheck(e) {
     if (item.classList[0] === 'trash-btn') {
         const todo = item.parentElement
         todo.classList.toggle('fall')
+        removeLocalTodos(todo)
         todo.addEventListener('transitionend', function () {
             todo.remove()
         })
